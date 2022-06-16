@@ -43,25 +43,25 @@ A methodology writeup can be found [here for Squid Rules](https://jakewnuk.com/p
 
 ## Summary:
 - Wordlists:
-    - HIBPv7_7m.txt
+    - `HIBPv7_7m.txt`
         - Top 7M passwords (99.65%) from HIBPv7
-    - HIBPv7_100M_min-reqs.txt
+    - `HIBPv7_100M_min-reqs.txt`
         - 8.5m passwords from HIBPv7 that would meet min AD complexity requirements
-    - HIBPv7_Top15_Masks-min-reqs.txt
+    - `HIBPv7_Top15_Masks-min-reqs.txt`
         - 30m passwords from HIBPv7 based on the top 15 masks that would meet min AD complexity requirements
 - Masks and Tokens
-    - password_masks_min-reqs
+    - `password_masks_min-reqs`
         - Most popular password masks from all HIBP data filtered for minimum complexity requirements.
-    - password_masks_no-reqs
+    - `password_masks_no-reqs`
         - Most popular password masks from all HIBP data filtered for passwords greater than 8 characters.
-    - common_tokens_min-reqs
+    - `common_tokens_min-reqs`
         - Most popular password words/tokens from all HIBP data filtered for minimum complexity requirements.
     - *Text files are just the words and csv files contain additional metadata*
 
 - Rules
-    - Squid Rule
+    - `Squid Rule`
         - Hashcat rules sorted from most effective to least effective from public hashcracking sets
         - Same rules broken into multiple sizes for specific applications
-    - Leo Rule
+    - `Leo Rule`
         - Generated Hashcat rules sorted from most effective to least effective from only passwords that meet min AD complexity requirements
         - Same rules broken into multiple sizes for specific applications
