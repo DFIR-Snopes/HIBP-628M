@@ -11,7 +11,7 @@ Hash Cracking Resources
 ## What is this?
 I needed a large sample of actual password hashes for analysis to improve password security. The HaveIBeenPwned repository was a great collection of password hashes from actual breaches and covered a great diversity of environments. The hashes were made public and over some time I cracked them for analysis:
 
-- `HIBPv7`: 602,796,439/613,584,246 (98.24%) passwords
+- `HIBPv7`: 578,006,177/613,584,246 (94.20%) passwords
 
 Resources in this repository use this sample as a base of real-world passwords and are utilized in a few different applications.
 
