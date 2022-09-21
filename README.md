@@ -31,11 +31,9 @@ While looking at the HIBP dataset, I realized that many passwords were low quali
 
 ## Rules
 The repository contains various rules generated from the unfiltered and filtered HIBP set using unique methods. They are separated into smaller lists to account for different hashing algorithms and sorted by most effective (most cracks) to least effective.
-A methodology writeup can be found [here for Squid Rules](https://jakewnuk.com/posts/cracking-half-billion-passwords-custom-rules-wordlists/) and [here for Leo Rules](https://jakewnuk.com/posts/cracking-half-billion-passwords-analysis/).
+A methodology writeup can be found [here for Squid Rules](https://jakewnuk.com/posts/cracking-half-billion-passwords-custom-rules-wordlists/).
 
 **Squid Rules**: This ruleset was created using rounds of randomized hashes, wordlists, and rule order to sort Hashcat rules by effectiveness. The set was "trained" on the entire collection of HIBP passwords and only included rules found in public hash cracking rule sets. The set is sorted by most effective to least effective and does not contain any generated rules. 
-
-**Leo Rules**: This ruleset was created using rounds of randomized hashes, wordlists, and rule order to sort Hashcat rules by effectiveness. The set was "trained" on the filtered collection of HIBP passwords and only included generated rules (raking) not found in public hash cracking rule sets. The set is sorted by most effective to least effective and contains generated rules. I performed around 3000 rounds of raking to achieve this optimized set. 
 
 ***
 
@@ -59,7 +57,4 @@ A methodology writeup can be found [here for Squid Rules](https://jakewnuk.com/p
 - Rules
     - `Squid Rule`
         - Hashcat rules sorted from most effective to least effective from public hashcracking sets
-        - Same rules broken into multiple sizes for specific applications
-    - `Leo Rule`
-        - Generated Hashcat rules sorted from most effective to least effective from only passwords that meet min AD complexity requirements
         - Same rules broken into multiple sizes for specific applications
