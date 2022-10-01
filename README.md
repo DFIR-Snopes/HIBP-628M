@@ -31,9 +31,9 @@ While looking at the HIBP dataset, I realized that many passwords were low quali
 
 ## Rules
 The repository contains various rules generated from the unfiltered and filtered HIBP set using unique methods. They are separated into smaller lists to account for different hashing algorithms and sorted by most effective (most cracks) to least effective.
-A methodology writeup can be found [here for Squid Rules](https://jakewnuk.com/posts/cracking-half-billion-passwords-custom-rules-wordlists/).
+A methodology writeup can be found [here for Squid Rules](https://jakewnuk.com/posts/sorting-rules-with-half-a-billion-passwords/).
 
-**Squid Rules**: This ruleset was created using rounds of randomized hashes, wordlists, and rule order to sort Hashcat rules by effectiveness. The set was "trained" on the entire collection of HIBP passwords and only included rules found in public hash cracking rule sets. The set is sorted by most effective to least effective and does not contain any generated rules. 
+**Squid Rules**: This ruleset was created using rounds of randomized hashes, wordlists, and rule order to sort Hashcat rules by effectiveness. The set was "trained" on the entire collection of HIBP passwords and only included rules found in public hash cracking rule sets. The set is sorted by most effective to least effective. 
 
 ***
 
