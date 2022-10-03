@@ -25,7 +25,7 @@ While looking at the HIBP dataset, I realized that many passwords were low quali
 **HIBPv7_Top15_Masks-min-reqs.txt**: Wordlist from the filtered down HIBP data (~70m passwords) and the set's top 15 most popular password masks. The wordlist contains around 30 million passwords and would meet the minimum complexity requirements of an AD domain.
 
 ## Masks and Tokens
-**Password Masks**: These password masks are in `Hashcat` format taken from the filtered down HIBP dataset and sorted by most popular. These masks can be greatly helpful in masks attacks as they are the most likely masks from real users' passwords.
+**Password Masks**: These password masks are in `Hashcat` format taken from the filtered down HIBP dataset and sorted by most popular. These masks can be greatly helpful in masks attacks.
 
 **Common tokens**: Using [PwdStat](https://github.com/JakeWnuk/PwdStat), a list of password tokens is generated using the NTLK library. The passwords were passed to a parser that attempted to filter down the passwords to their base tokens and then sorted by most common/popular. This list results from parsing tokens from the filtered down HIBP set.
 
