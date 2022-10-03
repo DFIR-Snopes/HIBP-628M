@@ -1,5 +1,5 @@
 <h1 align="center">
-Hash Cracking Resources
+HIBPv7 Hash Cracking Resources
 </h1>
 
 ### Quick Links:
