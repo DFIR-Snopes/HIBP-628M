@@ -35,6 +35,7 @@ A methodology writeup can be found [here for Squid Rules](https://jakewnuk.com/p
 
 **Squid Rules**: This ruleset was created using rounds of randomized hashes, wordlists, and rule order to sort Hashcat rules by effectiveness. The set was "trained" on the entire collection of HIBP passwords and only included rules found in public hash cracking rule sets. The set is sorted by most effective to least effective. 
 
+A comparison of squid rules to other rules can be found in `COMPARE.md`. Credit and thank you to p͞é͜ng̸u̡͘iń͢͞k̴è͢͜e̛p͠è͢r and others for creating the [document](https://docs.google.com/spreadsheets/d/1qQNwggWIWtL-m0EYrRg_vdwHOrZCY-SnWcYTwQN0fMk/htmlview#) used.
 ***
 
 ## Summary:
